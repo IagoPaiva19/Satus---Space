@@ -1,0 +1,14 @@
+.bootcamp{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.barraProgresso{
+    display: block;
+    margin: auto;
+    width: 270px;
+    background-color: #01105d
+}
+
+.link{
+text-decoration: none;
+}

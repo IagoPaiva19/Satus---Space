@@ -1,0 +1,199 @@
+.sobre{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../src/assets/image/backgroungSobre.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    color: var(--cor08);
+
+}
+.sobre h1{
+    text-align: center;
+}
+.sobre p{
+    max-width: 500px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.sobre-section{
+    display: flex;
+    justify-content: center;
+}
+
+.img-equipe{
+    animation: flutuacao 5s ease-in-out infinite;
+    margin: auto;
+    display: block;
+}
+
+.sobre-alterar-modo-button svg{
+    font-size: 1.5em;
+}
+
+.sobre-alterar-modo-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.4em;
+    height: 3.4em;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    left: calc(100% - 100px);
+    top: -135px;
+    margin: 0px;
+    transition: background-color 0.8s ease, color 0.5s ease, transform 0.9s ease, box-shadow 0.95s;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.26);
+    
+}
+
+.sobre-alterar-modo-button:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+
+@keyframes flutuacao {
+    0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.mvv{
+    width: 100px;
+    height: 100px;
+}
+
+.imagem-equipe{
+    text-align: center;
+}
+.imagem-equipe img{
+    width: 175px;
+    height: 228px;
+    object-fit: cover;
+    text-align: center;
+    margin-top: 10px;
+}
+.imagem-equipe p{
+    margin-top: 15px;
+    font: bold 16px "Neo Sans", sans-serif
+}
+
+.imagem-equipe svg{
+    color: var(--cor06);
+    
+    
+    transition:  ease, color 0.5s ease, transform 0.9s ease, box-shadow 0.95s;
+}
+
+.imagem-equipe svg:hover{
+    color: var(--cor06);
+    transform:  scale(1.05);
+}
+/* .imagem-equipe a{
+    color: var(--cor08);
+} */
+
+.imagem-equipe a:hover{
+    color: var(--cor02);
+}
+
+.mvv-cont{
+    margin-top: 100px;
+    background-color: #000045;
+    color: white;
+    border-style: solid; 
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: background-color 0.8s ease, color 0.5s ease, transform 0.9s ease, box-shadow 0.95s;
+}
+
+.mvv-cont:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.603) 2px 3px 8px;
+}
+
+.mvv-cont p{
+    width: 270px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.mvv-cont h2{
+    margin-bottom: 100px;
+}
+
+.sub-equipe{
+   font: bold 50px;
+   text-transform: uppercase;
+}
+
+.linha-equipe hr{
+    /* background-color: #ffffff; */
+    height: 2px;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    opacity: 100;
+}
+.linha-equipe hr:not([size]) {
+    height: 3px;
+}
+
+
+
+.lista li{
+    list-style: none;
+    display: inline;
+    padding: 0px 15px;
+    font-size: 2.2em;
+}
+
+.imagem-equipe p{
+    margin: 10px 0px 5px 0px ;
+}
+
+.imagem-equipe svg{
+    margin: 0px 0px 5px 0px ;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .mvv-cont{
+        margin-top: 10px;
+        height: 360px;
+    }
+
+    .mvv-cont p{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .mvv-cont h2{
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    
+}
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+.section-perfil-empresa{
+    min-height: 280px;
+    border-radius: 15px;
+}
+
+.section-perfil-empresa{
+    min-height: 280px;
+}
+
+.section-perfil-empresa ul svg{
+    
+    font-size: 3.4em;
+    cursor: pointer;
+    
+}
+
+/* .section-perfil-empresa .card-body{
+    height: 100%;
+} */
+
+.section-perfil-empresa ul{
+    list-style: none;
+    display: flex;
+    
+    /* height: 170px; */
+    
+}
+

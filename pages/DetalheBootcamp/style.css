@@ -1,0 +1,71 @@
+.vagas-detalhe{
+    height: 100vh;
+    padding: 0px;
+    border-radius: 15px;
+    transition: background-color 0.8s ease, color 0.5s ease,
+}
+.padding-row{
+    padding: 0px;
+}
+
+.vagas-detalhe .card-header{
+    width: 100%;
+}
+
+.vagas-detalhe .card-body{
+    overflow-y: scroll;
+    height: 90%;
+    
+}
+
+.vagas-detalhe .card-body::-webkit-scrollbar{
+    background-color: transparent;  
+    width: 5px;
+  }
+  
+.vagas-detalhe .card-body::-webkit-scrollbar:hover{
+      width: 10px;
+  }
+  
+.vagas-detalhe .card-body::-webkit-scrollbar-thumb{
+      background-color: var(--bgcolor2);
+      border-radius: 15px;
+      
+}
+  
+.vagas-detalhe .card-body::-webkit-scrollbar-thumb:hover{
+      background-color: var(--cor03);
+}
+
+
+
+.containerDetVaga{
+        color: white;
+        margin-left: 260px;
+        margin-top: -740px;
+        border-radius: 10px;
+        width: 82%;
+        height: 1000px;
+}
+
+.containerDetalhe{
+    margin-left: 50px;
+}
+
+.container1{
+    margin-top: 30px;
+}
+
+.titleDesc{
+    margin-bottom: 10px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btnCandidatar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 45%;
+}
