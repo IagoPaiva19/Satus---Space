@@ -1,0 +1,81 @@
+main{
+    background-color: transparent;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 90vh;
+    
+}
+
+main .cit{
+    text-align: right;
+}
+
+
+.titulo{
+    max-width: 700px;
+    width: 100%;
+}
+
+/* Principal */
+
+.principal{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal a{
+    text-decoration: none;
+}
+
+.principal h1{
+    color: black;
+    font-size: 3.5em;
+    font-family: sans-serif;
+}
+
+.principal p{
+    width: 90%;
+    margin: 0px auto;
+    font-size: 1.6em;
+    text-align: center;
+    
+}
+
+.logo-main{
+    width: 200px;
+}
+
+.fonte-main{
+    width: 550px;
+}
+
+
+
+.button{
+    background-color: var(--cor06);
+    font-size: 1.2em;
+    color: white;
+    border: none;
+    width: 9.5em;
+    border-radius: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-main{
+        width: 160px;
+    }
+    
+    .principal p{
+        width: 90%;
+        margin: 0px auto;
+        font-size: 1.3em;
+        text-align: center;
+        
+    }
+}
+
+

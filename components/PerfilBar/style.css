@@ -1,0 +1,34 @@
+.transparent input{
+    background-color: #E1DDDD;
+    border-radius: 10px;
+    width: 320px;
+    color: black;
+}
+
+.navbar-perfil{
+    display: flex;
+    width: 100%;
+    height: 85px;
+    align-items: center;
+}
+
+navbar-perfil im{
+    background-color: red;
+    display: flex;
+}
+
+.logo-fixed{
+    position: fixed;
+    left: 10px;
+    top: 4px;
+}
+
+.nav-icon{
+    font-size: 2.2em;
+}
+
+.perfil-navbar{
+    width: 65px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
